@@ -1,0 +1,9 @@
+{
+	"name": "adf-daniel-camacho",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "09a6ff80-0ced-4959-b861-289a394335ab",
+		"tenantId": "9db1434a-6665-4aba-a06d-96089310a627"
+	}
+}
