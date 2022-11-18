@@ -19,6 +19,9 @@
 				"type": "String"
 			}
 		},
+		"folder": {
+			"name": "COPIAR_DATOS_NUBE"
+		},
 		"annotations": []
 	}
 }
