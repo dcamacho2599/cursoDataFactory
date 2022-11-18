@@ -1,0 +1,19 @@
+{
+	"name": "DS_TABLE_OUTPUT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AZURESQL",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "NUBE"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "DC_Personas"
+		}
+	}
+}

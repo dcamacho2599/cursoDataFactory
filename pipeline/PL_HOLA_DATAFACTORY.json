@@ -1,0 +1,27 @@
+{
+	"name": "PL_HOLA_DATAFACTORY",
+	"properties": {
+		"description": "Ejemplo de uso de variables ",
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "prueba",
+					"value": "Hola datafactory"
+				}
+			}
+		],
+		"variables": {
+			"prueba": {
+				"type": "String"
+			}
+		},
+		"folder": {
+			"name": "COPIAR_DATOS_NUBE"
+		},
+		"annotations": []
+	}
+}

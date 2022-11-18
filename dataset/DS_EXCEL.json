@@ -1,0 +1,25 @@
+{
+	"name": "DS_EXCEL",
+	"properties": {
+		"description": "archivo ejemplo",
+		"linkedServiceName": {
+			"referenceName": "LS_DATALAKE",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "NUBE"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Hoja1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ejemploDataFactory.xlsx",
+				"fileSystem": "dcamacho"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
