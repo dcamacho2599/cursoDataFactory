@@ -5,6 +5,9 @@
 			"referenceName": "LS_AZURESQL",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "NUBE"
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [],

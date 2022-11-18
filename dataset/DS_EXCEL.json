@@ -6,6 +6,9 @@
 			"referenceName": "LS_DATALAKE",
 			"type": "LinkedServiceReference"
 		},
+		"folder": {
+			"name": "NUBE"
+		},
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
