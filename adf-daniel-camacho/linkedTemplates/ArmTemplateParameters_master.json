@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-daniel-camacho"
+		},
+		"LS_AZURESQL_connectionString": {
+			"value": ""
+		},
+		"LS_DATALAKE_accountKey": {
+			"value": ""
+		},
+		"LS_FILESYSTEM_ONPREM_password": {
+			"value": ""
+		},
+		"LS_AZUREVAULT_properties_typeProperties_baseUrl": {
+			"value": "https://kv-bigdata-train-dev.vault.azure.net/"
+		},
+		"LS_DATALAKE_properties_typeProperties_url": {
+			"value": "https://dlscursogrm.dfs.core.windows.net/"
+		},
+		"LS_FILESYSTEM_ONPREM_properties_typeProperties_host": {
+			"value": "C:\\Users\\\\danic\\\\OneDrive\\\\Documentos\\\\Curso_DF"
+		},
+		"LS_FILESYSTEM_ONPREM_properties_typeProperties_userId": {
+			"value": "danic"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
