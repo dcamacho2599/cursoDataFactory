@@ -5,12 +5,12 @@
 		"annotations": [],
 		"type": "FileServer",
 		"typeProperties": {
-			"host": "C:\\Users\\\\danic\\\\OneDrive\\\\Documentos\\\\Curso_DF",
-			"userId": "danic",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwOWNjZTIyYy1lNGRiLTQzNDctYWFjYy01YTI2M2QwM2EyMzMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"host": "\\\\ZOE-PC\\Datafactory",
+			"userId": "curso",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhYjZhZTNhNS1lYmQ3LTQwZGQtOTdjYi1kNTAyNTJhMjVhOWQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
-			"referenceName": "IR-CONEXIONLOCAL",
+			"referenceName": "IR-POSTGRES-LOCAL",
 			"type": "IntegrationRuntimeReference"
 		}
 	}
