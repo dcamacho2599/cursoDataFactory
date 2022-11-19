@@ -9,10 +9,19 @@
 				"userProperties": [],
 				"typeProperties": {
 					"variableName": "saludo",
-					"value": "Hola Datafactory"
+					"value": {
+						"value": "Hola @pipeline().parameters.nombre",
+						"type": "Expression"
+					}
 				}
 			}
 		],
+		"parameters": {
+			"nombre": {
+				"type": "string",
+				"defaultValue": "Daniel"
+			}
+		},
 		"variables": {
 			"saludo": {
 				"type": "String",
