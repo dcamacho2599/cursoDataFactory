@@ -1,0 +1,21 @@
+{
+	"name": "DS_PARQUET_OUT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_DATALAKE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ejemploCompresion.parquet",
+				"folderPath": "archivos_locales",
+				"fileSystem": "dcamacho"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

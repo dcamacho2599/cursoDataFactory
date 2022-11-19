@@ -1,0 +1,29 @@
+{
+	"name": "DS_FILESYSTEM_INPUT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_FILESYSTEM_ONPREM",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Hoja1",
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "ejercicio_subirarchivo1.xlsx"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "ID",
+				"type": "String"
+			},
+			{
+				"name": "NOMBRE",
+				"type": "String"
+			}
+		]
+	}
+}
