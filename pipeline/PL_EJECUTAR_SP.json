@@ -15,7 +15,13 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"storedProcedureName": "[dbo].[Saludar]"
+					"storedProcedureName": "[dbo].[Saludar]",
+					"storedProcedureParameters": {
+						"nombre": {
+							"value": "Daniel",
+							"type": "String"
+						}
+					}
 				},
 				"linkedServiceName": {
 					"referenceName": "LS_AZURESQL",
