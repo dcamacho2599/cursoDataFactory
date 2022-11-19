@@ -28,9 +28,13 @@
 						"partitionOption": "None"
 					},
 					"sink": {
-						"type": "AzureSqlSink",
-						"writeBehavior": "insert",
-						"sqlWriterUseTableLock": false
+						"type": "ParquetSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "ParquetWriteSettings"
+						}
 					},
 					"enableStaging": false,
 					"translator": {
@@ -50,7 +54,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DS_TABLE_OUTPUT",
+						"referenceName": "DS_PARQUET_OUT",
 						"type": "DatasetReference"
 					}
 				]
