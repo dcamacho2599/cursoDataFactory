@@ -10,7 +10,7 @@
 				"typeProperties": {
 					"variableName": "saludo",
 					"value": {
-						"value": "Hola @pipeline().parameters.nombre",
+						"value": "Hola @{pipeline().parameters.nombre} ",
 						"type": "Expression"
 					}
 				}
