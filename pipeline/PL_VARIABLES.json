@@ -1,0 +1,24 @@
+{
+	"name": "PL_VARIABLES",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "saludo",
+					"value": "Hola Datafactory"
+				}
+			}
+		],
+		"variables": {
+			"saludo": {
+				"type": "String",
+				"defaultValue": "Datafactory"
+			}
+		},
+		"annotations": []
+	}
+}
