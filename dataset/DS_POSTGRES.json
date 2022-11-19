@@ -1,0 +1,15 @@
+{
+	"name": "DS_POSTGRES",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_POSTGRESSQL_EXTERNO",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "ON-PREM"
+		},
+		"annotations": [],
+		"type": "PostgreSqlTable",
+		"schema": []
+	}
+}
